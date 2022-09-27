@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: thiswillchange/thisactionwillmove@master
+        uses: thiswillchange/thisactionwillmove@main
         with:
           who-to-greet: 'Bug Bounty Hunter'
       # Use the output from the `hello` step
